@@ -44,5 +44,6 @@ Include 2 version: with english and russian comments.
 
 
 
-You may buy me some berr if you like it =) 
+You may buy me some bear if you like it =) 
+
 PayPal: saxap@bk.ru
