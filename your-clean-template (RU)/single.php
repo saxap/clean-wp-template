@@ -17,7 +17,7 @@ get_header(); // подключаем header.php ?>
 		<?php the_content(); // контент ?>
 	</article>
 <?php endwhile; // конец цикла ?>
-<?php previous_post_link('%link', '<- Предидущий пост: %title', TRUE); // ссылка на предидущий пост ?> 
+<?php previous_post_link('%link', '<- Предыдущий пост: %title', TRUE); // ссылка на предыдущий пост ?> 
 <?php next_post_link('%link', 'Следующий пост: %title ->', TRUE); // ссылка на следующий пост ?> 
 <?php if (comments_open() || get_comments_number()) comments_template('', true); // если комментирование открыто - мы покажем список комментариев и форму, если закрыто, но кол-во комментов > 0 - покажем только список комментариев ?>
 </section>
