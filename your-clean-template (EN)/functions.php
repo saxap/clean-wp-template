@@ -50,7 +50,7 @@ class clean_comments_constructor extends Walker_Comment { // class, that constru
     	echo '<p class="meta">Posted by: '.get_comment_author()."\n"; // comment autor name
     	echo ' '.get_comment_author_email(); // comment autor email
     	echo ' '.get_comment_author_url(); // comment autor url
-    	echo ' On '.get_the_time('l, F jS, Y').' at '.get_the_time().'</p>'."\n"; // date and time of comment creating
+    	echo ' On '.get_comment_date('F j, Y').' at '.get_comment_time().'</p>'."\n"; // date and time of comment creating
     	if ( '0' == $comment->comment_approved ) echo '<em class="comment-awaiting-moderation">Your comment is awaiting moderation</em>'."\n"; // if comment is not approved notify of it
         comment_text()."\n"; // display comment text
         $reply_link_args = array( // reply link options
