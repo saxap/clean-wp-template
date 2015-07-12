@@ -50,7 +50,7 @@ class clean_comments_constructor extends Walker_Comment { // класс, кот�
     	echo '<p class="meta">Автор: '.get_comment_author()."\n"; // имя автора коммента
     	echo ' '.get_comment_author_email(); // email автора коммента
     	echo ' '.get_comment_author_url(); // url автора коммента
-    	echo ' Добавлено '.get_the_time('l, F jS, Y').' в '.get_the_time().'</p>'."\n"; // дата и время комментирования
+    	echo ' Добавлено '.get_comment_date('F j, Y').' в '.get_comment_time()."\n"; // дата и время комментирования
     	if ( '0' == $comment->comment_approved ) echo '<em class="comment-awaiting-moderation">Ваш комментарий будет опубликован после проверки модератором.</em>'."\n"; // если комментарий должен пройти проверку
         comment_text()."\n"; // текст коммента
         $reply_link_args = array( // опции ссылки "ответить"
