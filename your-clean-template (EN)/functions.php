@@ -8,7 +8,7 @@
 function typical_title() { // display title function
 	global $page, $paged; // pagination vars must be global
 	wp_title('|', true, 'right'); // standart wp title with "|" devider
-	bloginfo('name'); // show sitename
+	//bloginfo('name'); // show sitename
 	$site_description = get_bloginfo('description', 'display'); // get site description
 	if ($site_description && (is_home() || is_front_page())) // if site description exist and this is home page
 		echo " | $site_description"; // display site description with "|" devider

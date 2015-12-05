@@ -6,7 +6,7 @@
  */
 get_header(); // include header.php ?> 
 <section>
-	<h1><?php wp_title(''); // category title ?></h1>
+	<h1><?php single_cat_title(); // category name ?></h1>
 	<?php if (have_posts()) : while (have_posts()) : the_post(); // if posts exist - start cycle ?>
 		<?php get_template_part('loop'); // to output posts get loop template (loop.php) ?>
 	<?php endwhile; // cycle end

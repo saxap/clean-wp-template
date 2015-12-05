@@ -8,7 +8,7 @@
 function typical_title() { // функция вывода тайтла
 	global $page, $paged; // переменные пагинации должны быть глобыльными
 	wp_title('|', true, 'right'); // вывод стандартного заголовка с разделителем "|"
-	bloginfo('name'); // вывод названия сайта
+	//bloginfo('name'); // вывод названия сайта
 	$site_description = get_bloginfo('description', 'display'); // получаем описание сайта
 	if ($site_description && (is_home() || is_front_page())) //если описание сайта есть и мы на главной
 		echo " | $site_description"; // выводим описание сайта с "|" разделителем

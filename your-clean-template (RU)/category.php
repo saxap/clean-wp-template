@@ -6,7 +6,7 @@
  */
 get_header(); // подключаем header.php ?> 
 <section>
-	<h1><?php wp_title(''); // Заголовок категории ?></h1>
+	<h1><?php single_cat_title(); // название категории ?></h1>
 	<?php if (have_posts()) : while (have_posts()) : the_post(); // если посты есть - запускаем цикл wp ?>
 		<?php get_template_part('loop'); // для отображения каждой записи берем шаблон loop.php ?>
 	<?php endwhile; // конец цикла
