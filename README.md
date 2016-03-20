@@ -1,19 +1,16 @@
-clean-wp-template
+your-clean-template-3
 =================
 
-This is clean WordPress theme with minimal html5 markup and without styles for fast development starting yours project on WordPress.
+This is clean WordPress theme with minimal bootstrap3 html5 markup for fast development starting yours project on WordPress.
 
 Contain only the necessary and sufficient set of files and functionality.
 
 Suitable for those who often makes sites on WordPress and beginners to understand how it works.
 
-<b>Almost every line of code is commented!</b>
-
-Include 2 version: with english and russian comments.
-
 <h3>List of files:</h3>
 <ul>
 <li><b>404.php</b> - 404 error page</li>
+<li><b>author.php</b> - author's posts template</li>
 <li><b>archive.php</b> - posts archive template</li>
 <li><b>category.php</b> - category template</li>
 <li><b>comments.php</b> - comments template, contain comments list and adding form</li>
@@ -43,7 +40,3 @@ Include 2 version: with english and russian comments.
 </ul>
 
 
-
-You may buy me some beer if you like it =) 
-
-PayPal: saxap@bk.ru
