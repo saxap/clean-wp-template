@@ -13,6 +13,7 @@
 					'container'=> false,
 					'menu_class' => 'nav nav-pills bottom-menu',
 			  		'menu_id' => 'bottom-nav',
+			  		'fallback_cb' => false
 			  	);
 				wp_nav_menu($args);
 				?>
