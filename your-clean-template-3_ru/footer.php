@@ -13,6 +13,7 @@
 					'container'=> false, // обертка списка, false - это ничего
 					'menu_class' => 'nav nav-pills bottom-menu', // класс для ul
 			  		'menu_id' => 'bottom-nav', // id для ul
+			  		'fallback_cb' => false
 			  	);
 				wp_nav_menu($args); // выводим нижние меню
 				?>
