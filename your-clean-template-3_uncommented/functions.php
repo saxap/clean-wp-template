@@ -143,4 +143,12 @@ class bootstrap_menu extends Walker_Nav_Menu {
 	}
 }
 
+function content_class_by_sidebar() {
+	if (is_active_sidebar( 'sidebar' )) { 
+		echo 'col-sm-9';
+	} else { 
+		echo 'col-sm-12';
+	}
+}
+
 ?>

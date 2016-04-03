@@ -1,5 +1,5 @@
 /*   
-Theme Name: your-clean-template-3 (uncommented)
+Theme Name: your-clean-template-3
 Theme URI: https://github.com/saxap/clean-wp-template
 Version: 3.0
 Tags: clean, development, html5, bootstrap
@@ -10,10 +10,10 @@ Author URI: http://dontforget.pro
 
 
 @media (min-width: 979px) { 
-	ul.nav li.dropdown.show-on-hover:hover > ul.dropdown-menu {
+	ul.nav li.dropdown.show-on-hover:hover > ul.dropdown-menu { /* для раскрывания субменю по наведению */
 		display: block;
 	}
-	.comment-list .children {
+	.comment-list .children { /* для комментов */
 		padding: 0;
 		margin-left: 74px;
 		padding-bottom: 15px;
@@ -36,7 +36,7 @@ div.aligncenter {
 }
 
 .alignright {
-    float:right;
+    float: right;
     margin: 5px 0 20px 20px;
 }
 

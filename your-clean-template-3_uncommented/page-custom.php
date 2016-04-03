@@ -1,8 +1,9 @@
 <?php
 /**
- * Шаблон обычной страницы (page.php)
+ * Страница с кастомным шаблоном (page-custom.php)
  * @package WordPress
  * @subpackage your-clean-template-3
+ * Template Name: Страница с кастомным шаблоном
  */
 get_header(); ?>
 <section>

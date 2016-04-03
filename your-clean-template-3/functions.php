@@ -145,4 +145,12 @@ class bootstrap_menu extends Walker_Nav_Menu { // внутри вывод
 	}
 }
 
+function content_class_by_sidebar() { // функция для вывода класса в зависимости от существования виджетов в сайдбаре
+	if (is_active_sidebar( 'sidebar' )) { // если есть
+		echo 'col-sm-9'; // пишем класс на 80% ширины
+	} else { // если нет
+		echo 'col-sm-12'; // контент на всю ширину
+	}
+}
+
 ?>
